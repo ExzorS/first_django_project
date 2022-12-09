@@ -1,6 +1,10 @@
-{% extents 'flatpages/default.html'%}
-
-{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ flatpage.title }}</title>
+</head>
+<body>
 {{ flatpage.content }}
-<hr>
-{% endblock content %}
+{{ flatpage.content }}
+</body>
+</html>
